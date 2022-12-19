@@ -48,7 +48,7 @@ endstep0-->
   Encourage users to open new tabs for steps!
 -->
 
-<details id=1 open>
+<details id=1>
 <summary><h2>Step 1: Add a test workflow</h2></summary>
 
 _Welcome to "GitHub Actions: Continuous Integration"! :wave:_
@@ -112,7 +112,7 @@ When the tests finish, you'll see a red X :x: or a green check mark :heavy_check
 
 <!-- Note here: Learners -- yup, you found the error! Course maintainers -- leave the italics with * instead of _ for the error case. -->
 
-*By looking at the logs, can you identify which tests failed?* To find it, go to one of the failed builds and scrolling through the log. Look for a section that lists all the unit tests. We're looking for the name of the test with an "x".
+_By looking at the logs, can you identify which tests failed?* To find it, go to one of the failed builds and scrolling through the log. Look for a section that lists all the unit tests. We're looking for the name of the test with an "x".
 
 <img alt="screenshot of a sample build log with the names of the tests blurred out" src=https://user-images.githubusercontent.com/16547949/65922013-e740a200-e3b1-11e9-8151-faf52c30201e.png width=400 />
 
@@ -139,7 +139,7 @@ If the checks don't appear or if the checks are stuck in progress, there's a few
   Define terms and link to docs.github.com.
 -->
 
-<details id=3>
+<details id=3 open>
 <summary><h2>Step 3: Upload test reports</h2></summary>
 
 _The workflow has finished running! :sparkles:_
